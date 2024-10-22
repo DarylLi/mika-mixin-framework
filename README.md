@@ -60,7 +60,6 @@ $ npm run build
 
     ```
 
-
-    demo:
-    <img width="1432" alt="image" src="https://github.com/user-attachments/assets/248aa21b-e05b-4069-bab7-daaf3519d94c">
+demo:
+<img width="1432" alt="image" src="https://github.com/user-attachments/assets/248aa21b-e05b-4069-bab7-daaf3519d94c">
 
