@@ -20,6 +20,8 @@
     "style-loader": "^4.0.0",
     "uniq": "^1.0.1",
     "vue": "3.2.13",
+    "vue2": "npm:vue@^2.7.16",
+    "vue3": "npm:vue@^3.2.13",
     "webpack": "^5.20.0",
     "webpack-dev-server": "^5.0.2"
   },
