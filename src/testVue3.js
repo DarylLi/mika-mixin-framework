@@ -1,5 +1,5 @@
 import { createApp, ref } from "vue";
-import App from "./child3.vue";
+// import App from "./child3.vue";
 // // window._Vue = require("vue");
 
 // let jj = setInterval(() => {

@@ -50,20 +50,20 @@ const config = {
         },
       },
       {
-        test: /\.(png|jpe?g|gif|svg)(\?.*)?$/,
-        loader: "url-loader",
-        options: {
-          limit: 10000,
-          name: "img/[name].[hash:7].[ext]",
-        },
+        test: /\.(png|jpg|gif)$/i,
+        type: "asset/resource",
       },
       {
         test: /\.vue$/,
+        include: [path.resolve(__dirname, "src/vue3")],
         loader: "vue-loader",
       },
       {
-        test: /\.2ue$/,
-        loader: path.resolve("extra/vue-loader/lib/loader.js"),
+        // test: /\.2ue$/,
+        test: /\.vue$/,
+        include: [path.resolve(__dirname, "src/vue2")],
+        // loader: path.resolve("extra/vue-loader/lib/loader.js"),
+        loader: "vue-loader-mika",
       },
     ],
   },

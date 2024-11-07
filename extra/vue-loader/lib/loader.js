@@ -384,7 +384,6 @@ module.exports = function(content) {
 
     output += "\n";
   }
-
   if (!query.inject) {
     // hot reload
     if (needsHotReload) {
@@ -394,7 +393,12 @@ module.exports = function(content) {
         '  var hotAPI = require("' +
         hotReloadAPIPath +
         '")\n' +
-        '  hotAPI.install(require("../extra/vue2/dist/vue.js"), false)\n' +
+        // '  hotAPI.install(require("../../extra/vue2/dist/vue"), false)\n' +
+        '  hotAPI.install(require("vue2/dist/vue.js"), false)\n' +
+        // "  hotAPI.install(" +
+        // curVue2 +
+        // ", false)\n" +
+        // "  hotAPI.install(require(vuePath), false)\n" +
         "  if (!hotAPI.compatible) return\n" +
         "  module.hot.accept()\n" +
         "  if (!module.hot.data) {\n" +

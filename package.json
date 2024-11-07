@@ -29,17 +29,19 @@
     "@babel/core": "^7.23.9",
     "@babel/preset-env": "^7.23.9",
     "@babel/preset-react": "^7.23.3",
+    "axios": "^1.7.7",
     "babel-loader": "^9.1.3",
     "css-loader": "^7.1.2",
+    "file-loader": "^6.2.0",
     "flatten": "^1.0.3",
     "loader-utils": "^3.3.1",
     "postcss-load-config": "^6.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "vue-hot-reload-api": "^2.3.4",
+    "url-loader": "^4.1.1",
     "vue-loader": "^17.4.2",
+    "vue-loader-mika": "^0.0.2",
     "vue-style-loader": "^4.1.3",
-    "vue-template-es2015-compiler": "^1.9.1",
     "webpack-cli": "^5.1.4"
   }
 }

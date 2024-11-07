@@ -6,9 +6,9 @@ import PageEntry from './pageEntry.jsx';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
-  <React.StrictMode>
+  // <React.StrictMode>
     <PageEntry/>
-  </React.StrictMode>
+  // </React.StrictMode>
 );
 
 // import App from './app'

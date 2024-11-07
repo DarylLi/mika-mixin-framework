@@ -1,6 +1,6 @@
 {
-  "name": "vue-loader",
-  "version": "13.3.0",
+  "name": "vue-loader-mika",
+  "version": "13.3.0.1",
   "description": "Vue single-file component loader for Webpack",
   "main": "index.js",
   "repository": {
@@ -53,7 +53,8 @@
     "source-map": "^0.6.1",
     "vue-hot-reload-api": "^2.2.0",
     "vue-style-loader": "^3.0.0",
-    "vue-template-es2015-compiler": "^1.6.0"
+    "vue-template-es2015-compiler": "^1.6.0",
+    "vue2": "npm:vue@^2.7.16"
   },
   "peerDependencies": {
     "css-loader": "*",
@@ -94,7 +95,6 @@
     "stylus-loader": "^3.0.1",
     "sugarss": "^1.0.0",
     "url-loader": "^0.6.2",
-    "vue": "^2.4.4",
     "vue-server-renderer": "^2.4.4",
     "vue-template-compiler": "^2.4.4",
     "webpack": "^3.4.1"
