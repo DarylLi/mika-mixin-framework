@@ -1,6 +1,6 @@
 {
   "name": "mika-mixins-framework",
-  "version": "1.0.0",
+  "version": "1.0.0.1",
   "description": "mixin different version of vue or react ",
   "author": "daryl",
   "scripts": {
