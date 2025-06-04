@@ -68,7 +68,7 @@ new Vue({
 Vue.createApp(Vue3Component).mount("#vue3Entry");
 ```
 
-demo:
+## Preview:
 <img width="1432" alt="image" src="https://github.com/user-attachments/assets/248aa21b-e05b-4069-bab7-daaf3519d94c">
 
 <!-- 图片文件转换逻辑：生成一份公用json文件存储图片base64，编译项目后挂载至页面加载前的请求中。并注册至全局window or indexdb? -->
